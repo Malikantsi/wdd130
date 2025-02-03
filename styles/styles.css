@@ -7,7 +7,7 @@
 :root{
     --main-bg-color: steelblue;
     --main-text-color: white;
-    --content-width: 20em;
+    --content-width: 20rem;
     --aside-bg-color: #eee;
     --aside-border-color: black;
     --box-shadow: 0 0 30px gray;    
@@ -17,29 +17,38 @@ header{
     background-color: var(--main-bg-color);
     color: white;
     background-color: var(--accent-color);
-    border-radius: 10px;
-    margin: 20px;
+    border-radius: 10px;    
     border: 2px solid var(--secondary-color);
 }
 
 nav{
     background-color:var(--main-bg-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 main{
     max-width: var(--content-width);
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 nav a {
     color: var(--main-text-color);
     display: block;
-    padding: 10px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
 h1{
     color: var(--main-bg-color);
     padding: 1em;
+    border-bottom: 2px solid var(--aside-border-color) ;
 }
 
 main img{
@@ -61,6 +70,8 @@ aside{
     width: var(--content-width);
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 
 }
 
@@ -69,7 +80,6 @@ aside img{
     height: auto;
 }
 footer{
-    margin-top: 20px;
     border-top: 2px solid #000;
     text-align: center;
 }
@@ -89,4 +99,15 @@ aside h2{
 }
 .indent{
     padding-left: 2rem;
+}
+
+header,footer, .grid{
+    max-width: 940px;
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+
 }
