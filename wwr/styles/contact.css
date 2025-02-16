@@ -211,7 +211,7 @@ form div{
     display: grid;
 }
 form button{
-    background: #007BFF;
+    background: #1b1b1c;
     color: white;
     padding: 10px;
     border: none;
@@ -220,7 +220,7 @@ form button{
     cursor: pointer;
 }
 form button:hover{
-    background: #012851;
+    background: #868687;
 }
 
 .column1{
