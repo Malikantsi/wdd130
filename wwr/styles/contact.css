@@ -37,9 +37,19 @@ body{
     padding: 40px 0px;
 
 }
-.hero h1 p{
+.hero p{
    font-weight: normal;
    font-size: small;
+   position: absolute;
+    bottom: 25%;
+    display: block;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+    font-family: var(--heading-font);
+    color: white;
+    padding: 10.5px 0px;
 }
 .hero article{
     position: absolute;
