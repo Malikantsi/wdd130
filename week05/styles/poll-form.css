@@ -119,10 +119,5 @@ body {
      grid-template-columns: 2fr 1fr;
     /* grid-template-columns: repeat(2, 1fr); */
   }
-    /* .colunm2 label{
-        grid-column: 1;
-    }
-    .colunm2 input{
-        grid-column: 2;
-      } */
+    
 
