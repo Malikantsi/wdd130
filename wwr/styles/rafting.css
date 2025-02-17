@@ -552,7 +552,7 @@ input[type="checkbox"]{
 .trip div figure{
     border:none;
     display: block;
-   flex-flow: none;
+   /* flex-flow: none; */
    padding: 5px;
    width: 100%;
    margin: auto;
