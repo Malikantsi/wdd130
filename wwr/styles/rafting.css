@@ -236,16 +236,7 @@ body{
     color: white;
     padding: 10.5px 0px;
 }
-/* .hero article{
-    position: absolute;
-    
-    top: 50%;
-    padding: 10px 0px;
-    background-color: black;
-    /* opacity: 0.75; */
-    background: rgba(0, 0, 0, 0.75);
-    margin: 0px auto;
-} */
+
 .hero img{
     display: block;
     width: 100%;
@@ -590,7 +581,6 @@ input[type="checkbox"]{
     color: white;
     padding: 100px;
     border-radius: 10px;
-    max-width: auto;
     margin: 20px auto;
     
 }
