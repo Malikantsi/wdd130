@@ -384,3 +384,103 @@ input[type="checkbox"]{
     bottom:52%;
     
 }
+
+/* tripstyles */
+
+.trips {
+    display: grid;
+    text-align: center;
+    background-color: #1f3b63; /* Dark blue */
+    color: white;
+    padding: 40px 20px;
+    grid-template-rows: 3fr 1fr ;
+}
+
+
+
+/* Welcome Section */
+.welcom-paragraph {
+    text-align: center;
+    background:#2c3e50;
+    color: white;
+    padding: 100px;
+    border-radius: 10px;
+    max-width: auto;
+    margin: 20px auto;
+    
+}
+
+
+.welcom-paragraph h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff; 
+    text-transform: uppercase;
+}
+
+
+.welcom-paragraph p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#trip-hero{
+    
+    bottom:42%;
+    
+}
+
+/* table styling  */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+    
+  }
+  
+  caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+
+
+
+
